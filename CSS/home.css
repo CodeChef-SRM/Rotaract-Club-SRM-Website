@@ -17,7 +17,7 @@ ul li::before {
 }
 
 .container{
-    margin-top: 80px;
+    margin-top: 50px;
 }
 
 .navbar{
@@ -34,7 +34,7 @@ ul li::before {
 
 .parent {
     position: relative;
-    top: 40px;
+    top: 10px;
     left: 0;
   }
   .image1 {
@@ -45,6 +45,7 @@ ul li::before {
   }
   .image2 {
     position: absolute;
+    z-index: -3;
     right: 50;
     left: 50;
    
