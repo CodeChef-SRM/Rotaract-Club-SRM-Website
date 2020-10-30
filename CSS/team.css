@@ -1,3 +1,8 @@
+body {
+    font-family: 'Raleway', sans-serif;
+
+
+}
 ul {
     margin: 0;
     padding: 0;
@@ -26,11 +31,11 @@ margin-bottom:65px;
 
 .sec-title .title{
 position:relative;
-font-size:18px;
-color:#bd0000;
+font-size: 40px;
+color:#db195e;
 font-weight:700;
 margin-bottom:12px;
-text-transform:capitalize;
+text-transform: capitalize;
 }
 
 .sec-title .separator{
@@ -67,14 +72,14 @@ width:10px;
 height:5px;
 margin-left:-5px;
 display:inline-block;
-background-color:#bd0000;
+background-color:#db195e;
 }
 
 .sec-title h2{
 position:relative;
 color:#222222;
 font-weight:700;
-font-size:36px;
+font-size:24px;
 line-height:1.2em;
 margin-top:35px;
 }
@@ -236,6 +241,7 @@ box-shadow:inset 0px 0px 35px rgba(0,0,0,0.20);
 position:relative;
 width:100%;
 display:block;
+border-radius: 15px;
 }
 
 .team-block .inner-box .lower-content{
@@ -247,7 +253,7 @@ padding:30px 15px 0px 110px;
 
 .team-block .inner-box .lower-content h3{
 position:relative;
-color:#bd0000;
+color:#db195e;
 font-size:18px;
 font-weight:700;
 line-height:1.3em;
@@ -255,7 +261,7 @@ line-height:1.3em;
 
 .team-block .inner-box .lower-content h3 a{
 position:relative;
-color:#bd0000;
+color:#db195e;
 -webkit-transition: all 0.4s;
 -moz-transition: all 0.4s;
 -o-transition: all 0.4s;
