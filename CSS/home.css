@@ -1,0 +1,49 @@
+body {
+    font-family: 'Raleway', sans-serif;
+
+
+}
+
+.container{
+    margin-top: 80px;
+}
+
+.navbar{
+    background: #db195e;
+    font-size: 20px;
+    font-weight: 500;
+ 
+
+}
+
+.parent {
+    position: relative;
+    top: 40px;
+    left: 0;
+  }
+  .image1 {
+    position: relative;
+    top: 0;
+    left: 0;
+   
+  }
+  .image2 {
+    position: absolute;
+    right: 50;
+    left: 50;
+   
+  }
+
+  .rotate {
+    animation: rotation 10s infinite linear;
+  }
+  
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
