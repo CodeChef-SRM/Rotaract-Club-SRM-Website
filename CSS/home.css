@@ -7,7 +7,7 @@ ul {
   list-style: none; /* Remove default bullets */
 }
 
-ul li::before {
+.listmast li::before {
   content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
   color:#db195e; /* Change the color */
   font-weight: bold; /* If you want it to be bold */
@@ -19,6 +19,17 @@ ul li::before {
 .containerM{
     margin-top: 50px;
 }
+.card{
+  border-color: #db195e;
+ 
+}
+
+
+
+.form-control:focus{
+  border-color: #db195e;
+  box-shadow: none;
+}
 
 .navbar{
     background: #db195e;
@@ -26,6 +37,15 @@ ul li::before {
     font-weight: 300;
  
 
+}
+
+.alert{
+  display: none;
+}
+
+label{
+  color: #db195e;
+  font-weight: 500;
 }
 
 .color{
@@ -77,3 +97,4 @@ ul li::before {
   font-weight: 300;
   font-size: 50px;
 }
+
