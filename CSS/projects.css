@@ -13,7 +13,7 @@
 
 
 .card-design {
-        box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
         color: #ffffff;
     
         font-family: 'Lato', Arial, sans-serif;
@@ -53,11 +53,11 @@
         bottom: 0;
         left: 0;
         right: 0;
-        background: #700877;
+        background: black;
         content: '';
-        background: -moz-linear-gradient(90deg, #700877 0%, #ff2759 100%, #ff2759 100%);
-        background: -webkit-linear-gradient(90deg, #700877 0%, #ff2759 100%, #ff2759 100%);
-        background: linear-gradient(90deg, #700877 0%, #ff2759 100%, #ff2759 100%);
+        background: -moz-linear-gradient(90deg, black 0%, #db195e 100%, #db195e 100%);
+        background: -webkit-linear-gradient(90deg, black 0%, #db195e 100%, #db195e 100%);
+        background: linear-gradient(90deg, black 0%, #db195e 100%, #db195e 100%);
         opacity: 0.8;
         z-index: -1;
       }
@@ -65,7 +65,7 @@
 .card-design .date {
         background-color: #fff;
         border-radius: 50%;
-        color: #700877;
+        color: black;
         font-size: 18px;
         font-weight: 700;
         min-height: 48px;
