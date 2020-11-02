@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="icon" href="./Images/Rotary_International.png" />
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./CSS/hover.css">
@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="./CSS/team.css">
 
     
-    <title>Rotaract SRM</title>
+    <title>Rotaract SRM - Gallery</title>
     
   </head>
   <body>
@@ -40,11 +40,12 @@
             <li class="nav-item active mx-3">
                 <a class="nav-link hvr-underline-from-center" href="#">Gallery</a>
               </li>
-              <li class="nav-item active mx-3">
-                <a class="nav-link hvr-underline-from-center" href="./rotaract.html">About Rotaract</a>
-            </li>
+              
             <li class="nav-item active mx-3">
               <a class="nav-link hvr-underline-from-center" href="./projects.html">Projects</a>
+            </li>
+            <li class="nav-item active mx-3">
+                <a class="nav-link hvr-underline-from-center" href="./rotaract.html">About Rotaract</a>
             </li>
           </ul>
         </div>
@@ -58,7 +59,8 @@
             <div class="separator"><span></span></div>
         </div>
         
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+     <div data-aos="zoom-in" data-aos-duration="2000">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" >
             <ol class="carousel-indicators">
               <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
               <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -132,6 +134,7 @@
               <span class="sr-only">Next</span>
             </a>
           </div>
+     </div>
           <hr>
           <section id="footer" class="text-center py-4">
               <img alt="" src="./Images/Rotaract-Red.png" height="50px" width="240px">
@@ -160,6 +163,9 @@
     <script src="./JS/home.js"></script>
     <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
     <script src="./JS/form.js"></script>
-    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
   </body>
 </html>

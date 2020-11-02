@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="icon" href="./Images/Rotary_International.png" />
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./CSS/hover.css">
@@ -62,12 +62,16 @@
             <img class="image1" src="./Images/notrotate.png" width="300px" height="300px" />
           </div>
           <div class="text-center" style="margin-bottom: 60px;">
-            <p class="headtext">Uplifting <span style="font-weight: 600; color:#db195e;">Personalities</span>, Serving <span style="font-weight: 600; color:#db195e;">Humanity</span></p>
-            <a href="#about" class="hvr-wobble-vertical"><i class="fa fa-angle-down my-4" aria-hidden="true" style="font-size: 30px; color: #db195e;"></i></a>
+            <p class="headtext">Uplifting <span style="font-weight: 600; color:#db195e;">Personalities</span>, Serving <span style="font-weight: 600; color:#db195e;">Humanity</span>
+            <br>
+             <span style="font-size: 18px;" class="element"></span> 
+            </p>
+            
+            <a href="#about" class="hvr-wobble-vertical"><i class="fa fa-angle-down mb-4" aria-hidden="true" style="font-size: 30px; color: #db195e;"></i></a>
             <br>
           </div>
-             <hr>
-          <section class="mt-5" id="about" >
+             <hr id="about">
+          <section class="mt-5"  data-aos="fade-up" data-aos-duration="2000" >
             <div class="text-center mb-5 sec-title centered">
                <h1 class="heads mt-2"><span style="color:#db195e;font-weight: 700;">A</span>bout</h1>
               <div class="separator"><span></span></div>
@@ -94,13 +98,13 @@
           <hr>
         
          
-             <div class="embed-responsive embed-responsive-16by9 shadow mb-5 bg-white rounded">
+             <div class="embed-responsive embed-responsive-16by9 shadow mb-5 bg-white rounded" data-aos="fade-up" data-aos-duration="2000">
                 <video controls loop height="500" width="1000">
                   <source src="./Images/F1.mp4" type="video/mp4">
                 </video>
               </div>
          <hr>
-          <section class="mt-5 card px-5 pt-5 shadow p-3 mb-5 rounded" id="contact" style="background: none;" >
+          <section class="mt-5 card px-5 pt-5 shadow p-3 mb-5 rounded" id="contact" data-aos="zoom-in" data-aos-duration="2000" style="background: none;" >
             <div class="text-center mb-5 sec-title centered">
                <h1 class="heads contact-us"><span style="color:#db195e;font-weight: 700;">C</span>ontact</h1>
                <div class="alert">Your message has been sent!</div>
@@ -155,6 +159,21 @@
     <script src="./JS/home.js"></script>
     <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
     <script src="./JS/form.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+      <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <script>
+      
+    var options = {
+        strings: ['Promote','Provide','Save', 'Grow', 'Support'],
+        typeSpeed: 100,
+        loop: true,
+        loopCount: Infinity
+        };
+    var typed = new Typed('.element', options);
+    </script>
     
   </body>
 </html>
