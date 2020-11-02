@@ -1,10 +1,21 @@
+
+
 body {
     font-family: 'Raleway', sans-serif;
 font-size: 18px;
 
+
 }
 ul {
   list-style: none; /* Remove default bullets */
+}
+
+.form-control{
+  background: none;
+  border-color: #db195e;
+}
+.form-control:focus{
+  background: none;
 }
 
 .listmast li::before {
